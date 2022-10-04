@@ -19,8 +19,8 @@ jobs:
       - name: Deploy preview with SCP
         uses: noobly314/deploy-with-scp@v1
         with:
-          src: render
-          dest: 'zeg-pr/${{ github.event.number }}'
+          src: render/*
+          dest: 'zeg-pr/${{ github.event.number }}/'
           username: generic-ci
           server-ip: random-projects.net
           ssh-key: ${{ secrets.WEBSITE_PRIVATE_KEY }} #
