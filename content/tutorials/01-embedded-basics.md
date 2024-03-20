@@ -1,12 +1,10 @@
 ---
-{
-  "title": "Embedded Basics",
-  "date": "2020-07-06T00:00:00",
-  "author": "Felix Queißner",
-  "draft": false,
-  "layout": "tutorial.html",
-  "tags": []
-}  
+.title = "Home",
+.date = @date("2020-07-06T00:00:00"),
+.author = "Felix Queißfner",
+.draft = false,
+.layout = "tutorial.html",
+.tags = [],
 ---
 # Embedded Basics
 
