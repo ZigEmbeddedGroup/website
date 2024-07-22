@@ -160,7 +160,7 @@ pub fn main() anyerror!void {
         );
 
         try website.renderHtmlFile("website/index.htm", root_dir, "index.htm");
-        try website.renderHtmlFile("website/getting-started.htm", root_dir, "getting-started.htm");
+        try website.renderHtmlFile("website/getting-started.html", root_dir, "getting-started.html");
 
         try website.renderArticleIndex(root_dir, "articles.htm");
 
