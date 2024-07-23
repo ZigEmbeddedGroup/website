@@ -8,11 +8,11 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
-          submodules: 'recursive'
+          submodules: "recursive"
       - name: Setup Zig
         uses: goto-bus-stop/setup-zig@v2
         with:
-          version: master
+          version: 0.13.0
       - name: Render website
         run: |
           zig build
@@ -34,5 +34,5 @@ jobs:
             Heya!
             You can check out a preview of your PR at [staging.microzig.tech/pulls/${{ github.event.number }}](https://staging.microzig.tech/pulls/${{ github.event.number }}/)!
           repo-token: ${{ secrets.GITHUB_TOKEN }}
-          repo-token-user-login: 'github-actions[bot]' # The user.login for temporary GitHub tokens
+          repo-token-user-login: "github-actions[bot]" # The user.login for temporary GitHub tokens
           allow-repeats: false # This is the default
