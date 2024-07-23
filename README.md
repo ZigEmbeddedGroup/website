@@ -1,3 +1,7 @@
+# Archived
+
+This repository has been moved into the [monorepo](https://github.com/ZigEmbeddedGroup/microzig/tree/main/website)
+
 # Zig Embedded Group - Website and Articles
 
 This project both contains the contents and the generation of the ZEG website.
