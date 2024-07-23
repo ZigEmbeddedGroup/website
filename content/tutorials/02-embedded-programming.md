@@ -14,7 +14,7 @@ In this tutorial, you'll learn the ways of the embedded programmer and how to ma
 
 ## Prerequisites
 
-- [Embedded Basics](01-embedded-basics.htm)
+- [Embedded Basics](01-embedded-basics/)
 
 ## Contents
 
@@ -38,7 +38,7 @@ Every embedded programmer requires some materials to get their work done efficie
 
 First of all, the *SOC datasheet*. It contains all relevant information about the SOC/chip you are using, which functions each pin of the package has, where your RAM and flash is located in the memory map and so on. You *will* learn to navigate this document very quickly, as it's the main reference for everything you do.
 
-Second, you need the schematics of the device you want to program. You usually can obtain them from the manufacturer of your development board (assuming you are using one), by the vendor of the device you're hacking (if you are lucky enough) or by reverse engineering the device you have at hands (consider this the *hard mode* of embedded development). Reading a schematic is crucial to get your device do what you want, and you can learn a bit about this in the [Embedded Basics](01-embedded-basics.htm) tutorial.
+Second, you need the schematics of the device you want to program. You usually can obtain them from the manufacturer of your development board (assuming you are using one), by the vendor of the device you're hacking (if you are lucky enough) or by reverse engineering the device you have at hands (consider this the *hard mode* of embedded development). Reading a schematic is crucial to get your device do what you want, and you can learn a bit about this in the [Embedded Basics](01-embedded-basics/) tutorial.
 
 These two documents are the ones you *definitly* need and it's near-impossible to work without them. But usually you need more documents than this:  
 Datasheets for all the peripherial devices like displays, display controllers, motor controllers, expander chips and so on. Another document that helps a lot is the CPU datasheet for the core of your SOC. This document contains a precise description of the startup procedure of your system, what instructions are available, how the interrupts work in detail and similar topics.
