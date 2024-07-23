@@ -1,6 +1,6 @@
 ---
 {
-    .title = "Home",
+    .title = "Getting Started",
     .date = @date("2020-07-06T00:00:00"),
     .author = "Felix Queißner",
     .draft = false,
