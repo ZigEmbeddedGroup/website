@@ -1,4 +1,5 @@
 zig-cache/
+.zig-cache/
 render/
 zig-out/
 .direnv/
